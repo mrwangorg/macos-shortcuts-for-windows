@@ -1,3 +1,5 @@
+#IfWinNotActive ahk_exe blender.exe
+
 SetStoreCapslockMode, off
 Capslock::
     KeyWait, CapsLock
@@ -111,3 +113,5 @@ Return
     XButton1::Send !{Left}
     XButton2::Send !{Right}
 #if
+
+#IfWinNotActive
