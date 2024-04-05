@@ -1,4 +1,5 @@
-#IfWinNotActive ahk_exe blender.exe
+#IfWinNotActive ahk_exe blender.exe TslGame.exe
+; #IfWinNotActive ahk_exe winword.exe TslGame.exe
 
 SetStoreCapslockMode, off
 Capslock::
