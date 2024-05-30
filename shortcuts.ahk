@@ -22,6 +22,10 @@ $!LButton::
     SendInput {Ctrl Down}{LButton}{Ctrl Up}
 Return
 
+$^LButton::
+    SendInput {Alt Down}{LButton}{Alt Up}
+Return
+
 $!a::
     SendInput {Ctrl Down}{a}{Ctrl Up}
 Return
